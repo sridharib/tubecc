@@ -8,7 +8,12 @@
 	<name>tubecc</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<jdk.version>1.8</jdk.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.target>16</maven.compiler.target>
+		<maven.compiler.source>16</maven.compiler.source>
+		<java.version>16</java.version>
+
 		<spring.version>4.2.3.RELEASE</spring.version>
 		<jstl.version>1.2</jstl.version>
 		<junit.version>4.11</junit.version>
@@ -157,12 +162,12 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
 				<configuration>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 			    <artifactId>maven-dependency-plugin</artifactId>
 			    <executions>
@@ -174,7 +179,7 @@
 				            <artifactItem>
 				                <groupId>com.github.jsimone</groupId>
 				                <artifactId>webapp-runner</artifactId>
-				                <version>9.0.13.0</version>
+				                <version>9.0.27.0</version>
 				                <destFileName>webapp-runner.jar</destFileName>
 				            </artifactItem>
 				        </artifactItems>
@@ -183,7 +188,7 @@
 			    </executions>
 			</plugin>
 
-			<!-- <plugin>
+			<plugin>
 				<groupId>com.samaxes.maven</groupId>
 				<artifactId>minify-maven-plugin</artifactId>
 				<version>1.7.6</version>
