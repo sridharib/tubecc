@@ -11,4 +11,4 @@ Open http://localhost/tubecc
 
 The application can be accessed using below URL which is deployed in the cloud
 
-http://bit.ly/tube-cc  
+http://bit.ly/tubecc  
