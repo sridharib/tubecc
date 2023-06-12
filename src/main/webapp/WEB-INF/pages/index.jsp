@@ -169,12 +169,12 @@
 				<hr>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="col-md-1">
+						<div class="col-md-4">
 							<a href="#" onclick="$('#about-div').dialog('open');return false;" style="font-weight: bold;">
 								About
 							</a>
 						</div>
-						<div class="col-md-2">
+						<div class="col-md-4">
 							<a href="#" onclick="$('#supported-videos-div').dialog('open');return false;" style="font-weight: bold;">
 								Supported Videos
 							</a>
@@ -183,7 +183,12 @@
 							<a href="#" onclick="$('#embed-div').dialog('open');return false;" style="font-weight: bold;">
 								Embed
 							</a>
-						</div>										
+						</div>	
+						<div class="col-md-2">
+							<a href="http://bit.ly/tubecc-n" style="font-weight: bold;">
+								New Version
+							</a>
+						</div>	
 					</div>					
 				</div>
 			</div>		
