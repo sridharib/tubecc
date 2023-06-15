@@ -185,7 +185,7 @@
 							</a>
 						</div>	
 						<div class="col-md-2">
-							<a href="http://bit.ly/tubecc-n" style="font-weight: bold;">
+							<a href="http://bit.ly/tubecc-new" style="font-weight: bold;">
 								New Version
 							</a>
 						</div>	
